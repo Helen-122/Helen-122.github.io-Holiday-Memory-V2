@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Font-Jellee_1223';
+    src: url('font/Jellee-Bold.woff') format('woff'),
+        url('font/Jellee-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: #42bfdd;
+    
+}
+
+body {
+    
+    background-color: white;
+    background-image: url(images/background-5.png);
+    background-repeat: no-repeat;
+}
+
+.espace1 {
+    height: 50px;
+}
+
+.espace2 {
+    height: 30px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    /*color: #feffea;*/
+    color:#feffea;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 5em;
+    margin-top: 15px;
+    margin-bottom: 0%;
+}
+
+.rulls {
+    color: #feffea;
+    font-family: 'Nunito', 'sans-serif';
+    font-size: 1.5em;
+}
+
+.countdown {
+    color: #feffea;
+    font-size: 30px;
+    font-family: 'Nunito', 'sans-serif';
+}
+
+
+.start {
+    border-radius: 54px;
+    background: linear-gradient(145deg, #8cd3cb, #76b1ab);
+    box-shadow: 27px 27px 54px #6fa7a2,
+        -27px -27px 54px #97e3db;
+}
+
+.memory-game {
+    width: 530px;
+    height: 530px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.memory-card {
+    width: calc(25% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+
+}
+
+.memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    background: #edf6f9;
+    backface-visibility: hidden;
+}
+
+.front-face {
+    transform: rotateY(180deg);
+}
