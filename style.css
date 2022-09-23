@@ -22,7 +22,7 @@ body {
 body {
     
     background-color: white;
-    background-image: url(images/background-5.png);
+    background-image: url(images/background-5.jpg);
     background-repeat: no-repeat;
 }
 
@@ -40,7 +40,7 @@ h1 {
     /*color: #feffea;*/
     color:#feffea;
     font-family: 'Nunito', 'sans-serif';
-    font-size: 5em;
+    font-size: 6vw;
     margin-top: 15px;
     margin-bottom: 0%;
 }
@@ -48,11 +48,11 @@ h1 {
 .rulls {
     color: #feffea;
     font-family: 'Nunito', 'sans-serif';
-    font-size: 1.5em;
+    font-size: 2vw;
 }
 
 .countdown {
-    color: #feffea;
+    color: white;
     font-size: 30px;
     font-family: 'Nunito', 'sans-serif';
 }
