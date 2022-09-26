@@ -15,7 +15,7 @@
 
 body {
     height: 100vh;
-    color: rgba(208, 232, 226, 0.6);
+    background-color: rgba(208, 232, 226, 0.6);
     background-image: url(images/background-5.jpg);
     background-repeat:no-repeat;
 }
