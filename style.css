@@ -16,6 +16,7 @@
 body {
     height: 100vh;
     background-color: rgba(208, 232, 226, 0.6);
+    background-color: #D0E8E2;
     background-image: url(images/background-5.jpg);
     background-repeat:no-repeat;
 }
