@@ -8,8 +8,11 @@
     font-family: 'Font-Jellee_1223';
     src: url('font/Jellee-Bold.woff') format('woff'),
         url('font/Jellee-Bold.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  
+   
+
+    font-family: 'Playfair Display',
+    serif;
 }
 
 
@@ -31,25 +34,27 @@ body {
 
 h1 {
     text-align: center;
-    text-transform: uppercase;
-    /*color: #feffea;*/
-    color:#feffea;
-    font-family: 'Nunito', 'sans-serif';
-    font-size: 6vw;
+    color:#023047;
+  font-family: 'Barlow','sans-serif';
+    font-size: 4.7vw;
     margin-top: 15px;
     margin-bottom: 0%;
 }
 
 .rulls {
-    color: #feffea;
-    font-family: 'Nunito', 'sans-serif';
-    font-size: 2vw;
+    color: #023047;
+    font-family: 'Lato', 'sans-serif';
+   
+    font-size: 1.6vw;
 }
+
 
 .countdown {
     color: white;
     font-size: 30px;
-    font-family: 'Nunito', 'sans-serif';
+    color: #023047;
+     font-family: 'Barlow',
+     'sans-serif';
 }
 
 
