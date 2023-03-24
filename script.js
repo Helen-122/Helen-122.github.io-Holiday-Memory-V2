@@ -177,7 +177,7 @@ function winGame() { //A APPELER DANS LA FONCTION OU LES CARDS MATCHENT --> disa
   if (i > 7) {
     clearInterval(count_Interval); // ARRET DU TIMER
 
-    count_down_div.textContent = 'Bravo! Tu as trouvé toutes les paires en  ' + moves + ' coups!';
+    count_down_div.textContent = 'Bravo! Tu as gagné en  ' + moves + ' coups!';
 
     clearTimeout(gameOver);// EMPECHE LE SET TIME OUT GAMEOVER DE S'EXECUTER
 
